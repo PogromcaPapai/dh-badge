@@ -22,6 +22,6 @@ if (get_arg('size')) {
 dangers = get_arg("d").split(",")
 dangers.forEach(danger => {
     create('image', {"width":size, "x":xmove,
-    "href":`dangers/${danger}.png`});
+    "href":`https://pogromcapapai.github.io/dh-badge/dangers/${danger}.png`});
     xmove+=size;
 });
