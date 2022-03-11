@@ -2,7 +2,8 @@
 
 Based on the [Data Hazards Project](https://github.com/very-good-science/data-hazards).
 
-## Example
+<!-- DOESN'T WORK (YET) -->
+<!-- ## Example
 
 <object type="image/svg+xml" data="https://pogromcapapai.github.io/dh-badge/badge.svg?d=general,misuse,automates"></object>
 
@@ -10,12 +11,12 @@ Based on the [Data Hazards Project](https://github.com/very-good-science/data-ha
 <object type="image/svg+xml" data="https://pogromcapapai.github.io/dh-badge/badge.svg?d=general,misuse,automates"></object>
 ```
 
-## Usage
+## Usage -->
 
-Add this template to your site:
+Add this template to your site (this must be an html site - GitHub doesn't allow  scripts):
 
 ```html
-<object type="image/svg+xml" data="https://pogromcapapai.github.io/dh-badge/badge.svg?d=HAZARDS&size=SIZE"></object>]
+<img type="image/svg+xml" data="https://pogromcapapai.github.io/dh-badge/badge.svg?d=HAZARDS&size=SIZE"></object>]
 ``` 
 
 Specify which hazard symbols you want to show using the `d` parameter (using `,` as the delimeter) and specify the size of one symbol using the `size` parameter (the default is 100).
