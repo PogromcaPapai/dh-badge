@@ -22,10 +22,6 @@ Add this template to your site (this must be an html site - GitHub doesn't allow
 
 Specify which hazard symbols you want to show using the `d` parameter (using `,` as the delimeter) and specify the size of one symbol using the `size` parameter (the default is 100).
 
-## Why the `object` tag?
-
-I don't really have any computing power to do this on my own, co I'm using JavaScript to render the SVG file. Because of that, I need the interactivity of the `object` tag.
-
 ### Available hazards
 
 - `general` - **general** hazard,
@@ -40,3 +36,7 @@ I don't really have any computing power to do this on my own, co I'm using JavaS
 - `environment` - high **environment**al cost,
 - `ignores` - **ignores** or opposes community needs,
 - `lacks` - **lacks** community engagement,
+
+## Why the `object` tag?
+
+I don't really have any computing power to do this on my own, co I'm using JavaScript to render the SVG file. Because of that, I need the interactivity of the `object` tag.
