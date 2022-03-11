@@ -4,7 +4,7 @@ function get_arg(name){
     return decodeURIComponent(name[1]);
 }
 
-const file = document.getElementsByTagName('svg')[0];
+const file = document.getElementById('data-hazard-badge');
 function create(tag, attribs) {
     var obj = document.createElementNS('http://www.w3.org/2000/svg', tag);
     Object.keys(attribs).forEach(function(key) {
@@ -25,3 +25,6 @@ dangers.forEach(danger => {
     "href":`https://pogromcapapai.github.io/dh-badge/dangers/${danger}.png`});
     xmove+=size;
 });
+
+file.setAttribute('width', xmove);
+file.setAttribute('height', size);
