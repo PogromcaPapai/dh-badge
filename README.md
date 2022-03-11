@@ -2,16 +2,17 @@
 
 Based on the [Data Hazards Project](https://github.com/very-good-science/data-hazards).
 
-<!-- DOESN'T WORK (YET) -->
-<!-- ## Example
+## Example
 
-<object type="image/svg+xml" data="https://pogromcapapai.github.io/dh-badge/badge.svg?d=general,misuse,automates"></object>
+For now it is only visible in [GH Pages](https://pogromcapapai.github.io/dh-badge/)
+
+<object type="image/svg+xml" data="https://pogromcapapai.github.io/dh-badge/badge.svg?d=general,misuse,automates,direct"></object>
 
 ```html
-<object type="image/svg+xml" data="https://pogromcapapai.github.io/dh-badge/badge.svg?d=general,misuse,automates"></object>
+<object type="image/svg+xml" data="https://pogromcapapai.github.io/dh-badge/badge.svg?d=general,misuse,automates,direct"></object>
 ```
 
-## Usage -->
+## Usage
 
 Add this template to your site (this must be an html site - GitHub doesn't allow  scripts):
 
