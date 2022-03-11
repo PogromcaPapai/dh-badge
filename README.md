@@ -4,10 +4,10 @@ Based on the [Data Hazards Project](https://github.com/very-good-science/data-ha
 
 ## Example
 
-[![Example badge](badge.svg?d=general,misuse,automates,privacy,bias,classifies,consent,difficult,direct,environment,ignores,lacks,privacy&size=100)](https://github.com/very-good-science/data-hazards)
+[![Example badge](badge.svg?d=general,misuse,automates&size=100)](https://github.com/very-good-science/data-hazards)
 
 ```
-[![Example badge](https://pogromcapapai.github.io/dh-badge/badge.svg?d=general,misuse,automates,privacy,bias,classifies,consent,difficult,direct,environment,ignores,lacks&size=100)](https://github.com/very-good-science/data-hazards)
+[![Example badge](badge.svg?d=general,misuse,automates&size=100)](https://github.com/very-good-science/data-hazards)
 ```
 
 ## Usage
