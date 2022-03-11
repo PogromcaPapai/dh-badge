@@ -13,6 +13,8 @@ function create(tag, attribs) {
     file.appendChild(obj);
 }
 
+// Adding the hazard labels
+
 var xmove = 0; var size;
 if (get_arg('size')) {
     size = parseInt(get_arg('size'));
@@ -26,5 +28,12 @@ dangers.forEach(danger => {
     xmove+=size;
 });
 
+// file object customization
+
 file.setAttribute('width', xmove);
 file.setAttribute('height', size);
+
+var link = 'https://github.com/very-good-science/data-hazards'
+file.addEventListener('click', function () {
+    window.open(link);
+})
