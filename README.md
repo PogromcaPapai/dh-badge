@@ -12,7 +12,7 @@ Based on the [Data Hazards Project](https://github.com/very-good-science/data-ha
 
 ### The old syntax
 
-This doesn't work on README
+This doesn't work in README files!
 
 <object type="image/svg+xml" data="https://pogromcapapai.github.io/dh-badge/badge.svg?d=general,misuse,automates,direct"></object>
 
@@ -25,7 +25,7 @@ This doesn't work on README
 Add the following template. You can also switch the link to Data Hazards project for a link to the project's assessment.
 
 ```markdown
-[![ALT TEXT](https://notch-marble-primrose.glitch.me/badge.svg?d=HAZARDS&size=SIZE)](https://github.com/very-good-science/data-hazards)]
+[![ALT TEXT](https://notch-marble-primrose.glitch.me/labels?d=HAZARDS&size=SIZE)](https://github.com/very-good-science/data-hazards)]
 ``` 
 
 Specify which hazard symbols you want to show using the `d` parameter (using `,` as the delimeter) and specify the size of one symbol using the `size` parameter (the default is 100).
