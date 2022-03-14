@@ -4,7 +4,15 @@ Based on the [Data Hazards Project](https://github.com/very-good-science/data-ha
 
 ## Example
 
-For now it is only visible in [GH Pages](https://pogromcapapai.github.io/dh-badge/)
+[![Example labels](https://notch-marble-primrose.glitch.me/labels?d=general,misuse,automates,direct)](https://github.com/very-good-science/data-hazards)
+
+```markdown
+[![Example labels](https://notch-marble-primrose.glitch.me/labels?d=general,misuse,automates,direct)](https://github.com/very-good-science/data-hazards)
+```
+
+### The old syntax
+
+This doesn't work on README
 
 <object type="image/svg+xml" data="https://pogromcapapai.github.io/dh-badge/badge.svg?d=general,misuse,automates,direct"></object>
 
@@ -14,10 +22,10 @@ For now it is only visible in [GH Pages](https://pogromcapapai.github.io/dh-badg
 
 ## Usage
 
-Add this template to your site (this must be an html site - GitHub doesn't allow  scripts):
+Add the following template. You can also switch the link to Data Hazards project for a link to the project's assessment.
 
-```html
-<img type="image/svg+xml" data="https://pogromcapapai.github.io/dh-badge/badge.svg?d=HAZARDS&size=SIZE"></object>]
+```markdown
+[![ALT TEXT](https://notch-marble-primrose.glitch.me/badge.svg?d=HAZARDS&size=SIZE)](https://github.com/very-good-science/data-hazards)]
 ``` 
 
 Specify which hazard symbols you want to show using the `d` parameter (using `,` as the delimeter) and specify the size of one symbol using the `size` parameter (the default is 100).

@@ -14,6 +14,10 @@ app.get('/labels', (req, res) => {
   registerWindow(window, document)
 
   const params = req.query;
+  if (!params['d']) {
+    res.send("")
+    return
+  }
   const dangers = params['d'].split(",")
   const size = params['size'] ? Number(params['size']) : 100
 
